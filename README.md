@@ -1,5 +1,7 @@
 # S-Alert
 
+Tested Minecraft Versions: 1.8
+
 Send an alert or a warning in the chat using this Plugin. | Envie um alerta ou um aviso no chat utilizando este Plugin.
 
 ### EN-US
