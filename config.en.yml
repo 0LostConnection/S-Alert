@@ -1,0 +1,13 @@
+##EN | You can only edit what's inside the quotes!
+#Alert
+a-uso: "§c§lUsage /alert or /al <message>"
+a-erro1: "§c§lThis command can only be run by the players!"
+a-erro2: "§cVoce nao possui permissao para executar esse Comando!"
+a-alert: "§8[§c§lALERT§8] §l•§r§l " 
+a-ms: "§c§lSent an alert in the chat!"
+#Warn
+w-uso: "§c§lUsage /warn or /w <message>"
+w-erro1: "§c§lThis command can only be run by the players!"
+w-erro2: "§cYou do not have permission to execute this command!"
+w-warn: "§8[§c§lWARNING§8] §l•§r§l "
+w-ms: "§c§lSent a warning in the chat!"

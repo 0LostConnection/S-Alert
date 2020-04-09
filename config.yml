@@ -1,0 +1,14 @@
+#texto: "&cTexto enviado com sucesso {jogador}" #teste:
+#PT-BR | Você só pode editar o que está dentro das aspas!
+#Alert
+a-uso: "§c§lUso /alert ou /al <mensagem>"
+a-erro1: "§c§lEsse comando so pode ser executado por Jogadores!"
+a-erro2: "§cVoce nao possui permissao para executar esse Comando!"
+a-alert: "§8[§c§lALERTA§8] §l•§r§l " 
+a-ms: "§c§lEnviou um alerta no chat!"
+#Warn
+w-uso: "§c§lUso /aviso ou /av <mensagem>"
+w-erro1: "§c§lEsse comando so pode ser executado por Jogadores!"
+w-erro2: "§cVoce nao possui permissao para executar esse Comando!"
+w-warn: "§8[§c§lAVISO§8] §l•§r§l "
+w-ms: "§c§lEnviou um aviso no chat!"

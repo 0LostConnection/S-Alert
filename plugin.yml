@@ -1,0 +1,11 @@
+main: net.sad_software.alert.Main
+name: S-Alert
+version: 1.4
+depend: [TitleAPI]
+author: LostConnection
+website: https://twitter.com/0lostconnection/
+commands:
+   warn:
+      aliases: [aviso, av, w]
+   alert:
+      aliases: [alerta, al]
