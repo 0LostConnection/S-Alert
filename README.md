@@ -22,14 +22,14 @@ You can see the plugin website [here.](https://www.spigotmc.org/resources/titlea
 
 ### Commands
 
-`/warn <message>` - permission: s.alert
+`/warn <message> - permission: s.alert`
 Aliases:
 `/aviso`
 `/av`
 `/w`
 
 
-`/alert <message>` - permission: s.alert
+`/alert <message> - permission: s.alert`
 Aliases:
 `/alerta`
 `/al`
@@ -80,14 +80,14 @@ Você pode ver o site do plugin [aqui.](https://www.spigotmc.org/resources/title
 
 ### Comandos
 
-`/warn <mensagem>` - permissão: s.alert
+`/warn <mensagem> - permissão: s.alert`
 Comandos alternativos:
 `/aviso`
 `/av`
 `/w`
 
 
-`/alert <mensagem>` - permissão: s.alert
+`/alert <mensagem> - permissão: s.alert`
 Comandos alternativos:
 `/alerta`
 `/al`
