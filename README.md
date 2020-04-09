@@ -2,62 +2,6 @@
 
 Send an alert or a warning in the chat using this Plugin. | Envie um alerta ou um aviso no chat utilizando este Plugin.
 
-## PT-BR
-
-`S-Alert` foi feito com a intenção de facilitar o envio de alertas ou avisos no seu Servidor de Minecraft.
-[**Download**](https://www.spigotmc.org/resources/s-alert.77213/)
-
-### Dependencies
-
-##### TitleApi
-
-Você pode ver o site do plugin [aqui.](https://www.spigotmc.org/resources/titleapi-1-8-1-14-2.1325/)
-
-### Recursos
-
-- Envia alertas no chat
-- Envia avisos no chat
-- Suporte para mensagens em Inglês
-
-
-### Comandos
-
-`/warn <mensagem>`
-Comandos alternativos:
-`/aviso`
-`/av`
-`/w`
-
-
-`/alert <mensagem>`
-Comandos alternativos:
-`/alerta`
-`/al`
-
-
-### Imagens
-
-##### Alert:
-![Imgur](https://i.imgur.com/vHuJE62.png)
-##### Warn:
-![Imgur](https://i.imgur.com/KTX1QVn.png)
-
-### Perguntas frequentes
-
-> Como posso colocar as mensagens do plugin em Inglês?
-
-Para fazer isso, abra o plugin `S-Alert.jar` e extraia o arquivo `config.en.yml` na pasta gerada pelo plugin. Após extrair, exclua o arquivo **config.yml** e renomeie o  arquivo `config.en.yml` para `config.yml`.
-
-### Contate-me
-
-| Rede Social | Link |
-| ------ | ------ |
-| Twitter | https://twitter.com/0LostConnection |
-
-### Sob licença do MIT
-
-----
-
 ### EN-US
 
 `S-Alert` was made with the intention of facilitating the sending of alerts or warnings on your Minecraft  Server.
@@ -78,14 +22,14 @@ You can see the plugin website [here.](https://www.spigotmc.org/resources/titlea
 
 ### Commands
 
-`/warn <message>`
+`/warn <message>` - permission: s.alert
 Aliases:
 `/aviso`
 `/av`
 `/w`
 
 
-`/alert <message>`
+`/alert <message>` - permission: s.alert
 Aliases:
 `/alerta`
 `/al`
@@ -113,3 +57,60 @@ If you found any wrong translation in the plugin or in the GitHub Repository, te
 | Twitter | https://twitter.com/0LostConnection |
 
 ### Under MIT License
+
+----
+
+## PT-BR
+
+`S-Alert` foi feito com a intenção de facilitar o envio de alertas ou avisos no seu Servidor de Minecraft.
+[**Download**](https://www.spigotmc.org/resources/s-alert.77213/)
+
+### Dependencies
+
+##### TitleApi
+
+Você pode ver o site do plugin [aqui.](https://www.spigotmc.org/resources/titleapi-1-8-1-14-2.1325/)
+
+### Recursos
+
+- Envia alertas no chat
+- Envia avisos no chat
+- Suporte para mensagens em Inglês
+
+
+### Comandos
+
+`/warn <mensagem>` - permissão: s.alert
+Comandos alternativos:
+`/aviso`
+`/av`
+`/w`
+
+
+`/alert <mensagem>` - permissão: s.alert
+Comandos alternativos:
+`/alerta`
+`/al`
+
+
+### Imagens
+
+##### Alert:
+![Imgur](https://i.imgur.com/vHuJE62.png)
+##### Warn:
+![Imgur](https://i.imgur.com/KTX1QVn.png)
+
+### Perguntas frequentes
+
+> Como posso colocar as mensagens do plugin em Inglês?
+
+Para fazer isso, abra o plugin `S-Alert.jar` e extraia o arquivo `config.en.yml` na pasta gerada pelo plugin. Após extrair, exclua o arquivo **config.yml** e renomeie o  arquivo `config.en.yml` para `config.yml`.
+
+### Contate-me
+
+| Rede Social | Link |
+| ------ | ------ |
+| Twitter | https://twitter.com/0LostConnection |
+
+### Sob licença do MIT
+
