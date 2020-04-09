@@ -54,9 +54,7 @@ Para fazer isso, abra o plugin `S-Alert.jar` e extraia o arquivo `config.en.yml`
 | ------ | ------ |
 | Twitter | https://twitter.com/0LostConnection |
 
-### Licença
-
-MIT
+### Sob licença do MIT
 
 ----
 
@@ -114,6 +112,4 @@ If you found any wrong translation in the plugin or in the GitHub Repository, te
 | ------ | ------ |
 | Twitter | https://twitter.com/0LostConnection |
 
-### License
-
-MIT
+### Under MIT License
