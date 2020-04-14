@@ -23,6 +23,7 @@ Send an alert or a warning in the chat using this Plugin. | Envie um alerta ou u
 | ------ | ------ |
 | /warn <message> | /aviso, /av, /w |
 | /alert <message> | /alerta, /al |
+| /sreload | /sr |
 
 ### Images
 
@@ -69,6 +70,7 @@ If you found any wrong translation in the plugin or in the GitHub Repository, te
 | ------ | ------ |
 | /warn <message> | /aviso, /av, /w |
 | /alert <message> | /alerta, /al |
+| /sreload | /sr |
 
 
 ### Imagens
@@ -81,6 +83,7 @@ If you found any wrong translation in the plugin or in the GitHub Repository, te
 ### Perguntas frequentes
 
 > Como posso colocar as mensagens do plugin em Inglês?
+
 Para mudar o idioma faça um backup do arquivo config.yml localizado na pasta \plugins\S-Alert, após isso renomeie o arquivo config.en.yml para config.yml. Para salvar a alteração sem precisar reiniciar utilize o comando /sreload.
 
 ### Contate-me
