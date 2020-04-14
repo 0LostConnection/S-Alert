@@ -3,7 +3,7 @@ package net.sad_software.alert.comandos;
 import com.connorlinfoot.titleapi.TitleAPI;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import net.sad_software.alert.Main;
+import net.sad_software.alert.Alert;
 import org.bukkit.command.Command;
 import org.bukkit.entity.Player;
 import org.bukkit.ChatColor;
@@ -12,29 +12,29 @@ import org.bukkit.Sound;
 
 public class ComandoWarn implements CommandExecutor {
 	
-	private static Main m = (Main)Bukkit.getPluginManager().getPlugin("S-Alert");
+	private static Alert m = (Alert)Bukkit.getPluginManager().getPlugin("S-Alert");
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-		
-		//w-uso
-        if(args.length == 0) {
-        	sender.sendMessage(m.getConfig().getString("w-uso"));
-        	return true;
-        }
-		
+				
         //w-erro1
 		if(!(sender instanceof Player)) {
-            sender.sendMessage(m.getConfig().getString("w-erro1"));
+            sender.sendMessage(m.getConfig().getString("erro1"));
             return true;
         }
 
 		//w-erro2
         Player p = (Player)sender;
         if(!p.hasPermission("s.alert")) {
-            p.sendMessage(m.getConfig().getString("w-erro2"));
+            p.sendMessage(m.getConfig().getString("erro2"));
             return true;
         }
 		
+		//w-uso
+        if(args.length == 0) {
+        	sender.sendMessage(m.getConfig().getString("w-uso"));
+        	return true;
+        }
+        
 		if(cmd.getName().equalsIgnoreCase("warn")){
 			 
 			 String st = "";
