@@ -36,7 +36,7 @@ Send an alert or a warning in the chat using this Plugin. | Envie um alerta ou u
 
 > How can I put the plugin's messages in English?
 
-To change the language, make a backup of the file config.yml located in the folder \plugins\S-Alert, after that rename the file config.en.yml to config.yml. To save the change without having to restart, use the /sreload command.
+To change the language, make a backup of the file config.yml located in the folder `\plugins\S-Alert\`, after that rename the file **config.en.yml** to **config.yml**. To save the change without having to restart, use the `/sreload command`.
 
 ### Contact me
 
@@ -84,7 +84,7 @@ If you found any wrong translation in the plugin or in the GitHub Repository, te
 
 > Como posso colocar as mensagens do plugin em Inglês?
 
-Para mudar o idioma faça um backup do arquivo config.yml localizado na pasta \plugins\S-Alert, após isso renomeie o arquivo config.en.yml para config.yml. Para salvar a alteração sem precisar reiniciar utilize o comando /sreload.
+Para mudar o idioma faça um backup do arquivo **config.yml** localizado na pasta `\plugins\S-Alert\`, após isso renomeie o arquivo **config.en.yml** para **config.yml**. Para salvar a alteração sem precisar reiniciar utilize o comando `/sreload`.
 
 ### Contate-me
 
