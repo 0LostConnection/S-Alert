@@ -13,3 +13,5 @@ reload: "§a{player} §cConfig.yml was successfully reloaded!"
 #Warn, Alert and Reload
 erro2: "§cYou do not have permission to execute this command!"
 erro1: "§cThis command can only be run by the players!"
+#Warn and Alert player name color
+color: "§4§l"

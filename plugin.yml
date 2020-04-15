@@ -1,6 +1,6 @@
 main: net.sad_software.alert.Alert
 name: S-Alert
-version: 1.5
+version: 1.6
 depend: [TitleAPI]
 author: LostConnection
 website: https://github.com/NioiOtaku/S-Alert/
@@ -11,3 +11,10 @@ commands:
       aliases: [alerta, al]
    s-reload:
       aliases: [sr]
+      
+#1.6      
+#Changelog
+#-Added customizable player name color on warn and alert command
+
+#Changelog
+#-Adicionado customização de cor do nome do jogador no comando warn e alert

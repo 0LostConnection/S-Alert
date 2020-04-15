@@ -49,7 +49,7 @@ public class ComandoAlert implements CommandExecutor {
 		for (Player player : Bukkit.getOnlinePlayers()) {
 			
 			//a-ms
-			TitleAPI.sendTitle(player, 20, 40, 20, "§4§l"+p.getName(),m.getConfig().getString("a-ms"));
+			TitleAPI.sendTitle(player, 20, 40, 20, m.getConfig().getString("color")+p.getName(),m.getConfig().getString("a-ms"));
 			player.playSound(player.getLocation(), Sound.ENDERDRAGON_GROWL, 10, 1);
 		}	
 		

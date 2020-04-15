@@ -35,8 +35,8 @@ public class Alert extends JavaPlugin{
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN+"S-Alert 1.5");
 		Bukkit.getConsoleSender().sendMessage(" ");
 		Bukkit.getConsoleSender().sendMessage(ChatColor.RED+"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-		Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA+"For more information: https://github.com/NioiOtaku/S-Alert/");
-		Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA+"ontact me: https://twitter.com/0LostConnection");
+		Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA+"For more information: https://github.com/NioiOtaku/S-Alert/wiki/");
+		Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA+"Contact me: https://twitter.com/0LostConnection");
 		Bukkit.getConsoleSender().sendMessage(" ");
         
 		getCommand("warn").setExecutor(new ComandoWarn());
@@ -66,5 +66,4 @@ public class Alert extends JavaPlugin{
 	            e.printStackTrace();
 	        }
 	    }
-	    
 }
