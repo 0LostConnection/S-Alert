@@ -1,3 +1,8 @@
+# PROJETO DESCONTINUADO
+# DISCONTINUED PROJECT
+---
+
+
 # S-Alert
 
 Tested Minecraft Versions: 1.8
